@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18760\viewh11740\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+JETS FAKING PHOTONS 2019\
+\
+\
+\
+Cartella Skipper\
+\
+La cartella contiene:\
+\
+	2  TSelector\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li572\fi-573\pardirnatural\partightenfactor0
+\cf0 		2 .h e 2 .C, uno per i dati e uno per i MC, le simulazioni hanno infatti delle branch per i pesi che i dati non hanno e solo quindi necessari 2 Selector. Sono lo stesso Selector a cui \'e8 stato cambiato il nome e sono state tolte le variabili per i pesi.\
+		Ogni Selector prende i parametri di input (calo e track isolation, divisioni di met, bin di tightness) dal file selector_parameters.txt e pu\'f2 essere eseguito con il comando  TTreeXY->Process(\'93SelectorXY.C\'94)  (fatto in automatico da routine.sh) a cui non si possono passare argomenti, sono quindi definite due variabili nel .h:\
+		\
+		#define sample "Znunugamma"\
+		#define directory " 15-16"\
+	\
+	che vengono modificate da routine.sh per ciclare sui vari MC e su dati e MC di diversi anni. IMPORTANTE: bisogna lasciare queste variabili nelle righe 18 e 19, in modo che routine.sh riscriva le variabili nelle righe giuste.\
+		I due Selector calcolano le popolazioni da usare nel metodo ABCD, producendo lo stesso formato di risultati organizzato come un dizionario di Python e facilmente leggibile tramite il modulo \'93yaml\'94 di Python. La gerarchia \'e8 del dizionario \'e8:\
+	\
+		SR o CR \'97>  ISR o ESR \'97> tightness \'97> isolamento\
+\
+	Queste matrici tengono conto delle popolazione necessarie per il calcolo delle sistematiche su tightness e isolamento. Questo viene fatto calcolando tutte le popolazioni con le selezioni Tight, Tight-3, Tight-4 e Tight-5, e variando il gap di isolamento come definito in selector_parameters.txt (iso_gap[i]).\
+	\
+	NB: nel Selector dei MC il nome del sample stabilisce se il campione \'e8 di segnale o di background. Il campione di gammajets pu\'f2 essere usato per tutti e due ed \'e8 necessario cercare il fotone o jet anche nell\'92oggetto subleading, questo viene fatto alle righe 96-107 di SelectorMC.C, ma non sono totalmente sicuro che sia corretta la ricerca nel leading o subleading object, andrebbe rivista.\
+\
+\
+	\
+	routine.sh\
+\
+		Eseguibile che apre ROOT e lancia i selector. La prima parte (righe 7-27) crea la cartella \'93dati\'94 se non esiste, e all\'92interno crea tre cartelle in cui vengono salvate le matrici prodotte. La seconda parte (righe 33-104) ciclo sui vari campioni MC e su tutti i dati, sia per i MC sia per i dati si cicla anche sugli anni 2015-16, 2017 e 2018.\
+\
+\
+\
+	 derivate_complete.py\
+\
+		File che contiene tutte le derivate necessari per la propagazione degli errori sulla purezza, generate con Mathematica.\
+\
+	\
+\
+	functions.py\
+\
+		Funzioni necessarie per l\'92analisi dati:\
+			\
+			- merge_years:  					 mergia le popolazioni di diversi anni, \'e8 l\'92unico da toccare per analizzare diversi anni\
+			- merge: 							 mergi SRs e CRs opportune\
+			- correlation_factor e leakage_coefficient:   calcola i coefficienti\
+			- purezza:  						 calcola le purezze e gli errori associati\
+			- analyze_coefficient:  				 analizza i coefficienti\
+\
+\
+	Kowalsky\
+\
+		Notebook eseguibile con Python3 che analizza i dati della cartella \'93dati\'94. Calcola tutte le purezze con relativi errori statistici e sistematici e calcola poi le sistematiche dovute ai coefficienti e infine salva i dati. Alla fine c\'92\'e8 anche una parte di confronto con i risultati dell\'92analisi precedente (solo per dati 2015-16).\
+\
+	NB:  ci sono problemi di statistica dei dati 2017 nel calcolo delle purezze usate per stimare le sistematiche, nella tightness non si pu\'f2 fare il calcolo con Tight-3 nella 2muCR - ISR3 e nelle sistematiche su c3 in tutte le ISR3. Ci sono quindi un paio di righe (commentate) da scommentare solo per analizzare i dati solo 2017.\
+	\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

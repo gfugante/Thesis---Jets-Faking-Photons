@@ -1,0 +1,41 @@
+364502  eegamma_pty_35_70
+
+364503  eegamma_pty_70_140
+
+364504  eegamma_pty_140_E_CMS
+
+364507  mumugamma_pty_35_70
+
+364508  mumugamma_pty_70_140
+
+364509  mumugamma_pty_140_E_CMS
+
+364512  tautaugamma_pty_35_70
+
+364513  tautaugamma_pty_70_140
+
+364514  tautaugamma_pty_140_E_CMS
+
+364517  nunugamma_pty_35_70
+
+364518  nunugamma_pty_70_140
+
+364519  nunugamma_pty_140_E_CMS
+
+364523  enugamma_pty_35_70
+
+364524  enugamma_pty_70_140
+
+364525  enugamma_pty_140_E_CMS
+
+364528  munugamma_pty_35_70
+
+364529  munugamma_pty_70_140
+
+364530  munugamma_pty_140_E_CMS
+
+364533  taunugamma_pty_35_70
+
+364534  taunugamma_pty_70_140
+
+364535  taunugamma_pty_140_E_CMS 

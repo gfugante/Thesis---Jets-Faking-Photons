@@ -1,0 +1,340 @@
+SR:
+  ISR1:
+    tight:
+      Na:  3477
+      Nb:  1178
+    tight3:
+      Na:  160
+      Nb:  823
+    tight4:
+      Na:  318
+      Nb:  1634
+    tight5:
+      Na:  412
+      Nb:  2139
+    nottight:
+      Na:  789
+      Nb:  6824
+  ISR2:
+    tight:
+      Na:  963
+      Nb:  497
+    tight3:
+      Na:  43
+      Nb:  371
+    tight4:
+      Na:  82
+      Nb:  722
+    tight5:
+      Na:  107
+      Nb:  941
+    nottight:
+      Na:  205
+      Nb:  3224
+  ISR3:
+    tight:
+      Na:  313
+      Nb:  162
+    tight3:
+      Na:  14
+      Nb:  143
+    tight4:
+      Na:  24
+      Nb:  246
+    tight5:
+      Na:  33
+      Nb:  324
+    nottight:
+      Na:  74
+      Nb:  1075
+  ESR1:
+    tight:
+      Na:  2514
+      Nb:  681
+    tight3:
+      Na:  117
+      Nb:  452
+    tight4:
+      Na:  236
+      Nb:  912
+    tight5:
+      Na:  305
+      Nb:  1198
+    nottight:
+      Na:  584
+      Nb:  3600
+  ESR2:
+    tight:
+      Na:  650
+      Nb:  335
+    tight3:
+      Na:  29
+      Nb:  228
+    tight4:
+      Na:  58
+      Nb:  476
+    tight5:
+      Na:  74
+      Nb:  617
+    nottight:
+      Na:  131
+      Nb:  2149
+onemuCR:
+  ISR1:
+    tight:
+      Na:  1249
+      Nb:  806
+    tight3:
+      Na:  88
+      Nb:  655
+    tight4:
+      Na:  184
+      Nb:  1367
+    tight5:
+      Na:  229
+      Nb:  1847
+    nottight:
+      Na:  295
+      Nb:  5797
+  ISR2:
+    tight:
+      Na:  374
+      Nb:  344
+    tight3:
+      Na:  25
+      Nb:  293
+    tight4:
+      Na:  52
+      Nb:  596
+    tight5:
+      Na:  67
+      Nb:  798
+    nottight:
+      Na:  79
+      Nb:  2639
+  ISR3:
+    tight:
+      Na:  121
+      Nb:  153
+    tight3:
+      Na:  14
+      Nb:  108
+    tight4:
+      Na:  19
+      Nb:  210
+    tight5:
+      Na:  28
+      Nb:  264
+    nottight:
+      Na:  33
+      Nb:  888
+  ESR1:
+    tight:
+      Na:  875
+      Nb:  462
+    tight3:
+      Na:  63
+      Nb:  362
+    tight4:
+      Na:  132
+      Nb:  771
+    tight5:
+      Na:  162
+      Nb:  1049
+    nottight:
+      Na:  216
+      Nb:  3158
+  ESR2:
+    tight:
+      Na:  253
+      Nb:  191
+    tight3:
+      Na:  11
+      Nb:  185
+    tight4:
+      Na:  33
+      Nb:  386
+    tight5:
+      Na:  39
+      Nb:  534
+    nottight:
+      Na:  46
+      Nb:  1751
+twomuCR:
+  ISR1:
+    tight:
+      Na:  299
+      Nb:  76
+    tight3:
+      Na:  10
+      Nb:  66
+    tight4:
+      Na:  26
+      Nb:  135
+    tight5:
+      Na:  35
+      Nb:  180
+    nottight:
+      Na:  40
+      Nb:  580
+  ISR2:
+    tight:
+      Na:  111
+      Nb:  38
+    tight3:
+      Na:  2
+      Nb:  35
+    tight4:
+      Na:  4
+      Nb:  62
+    tight5:
+      Na:  6
+      Nb:  78
+    nottight:
+      Na:  7
+      Nb:  279
+  ISR3:
+    tight:
+      Na:  39
+      Nb:  14
+    tight3:
+      Na:  1
+      Nb:  15
+    tight4:
+      Na:  1
+      Nb:  27
+    tight5:
+      Na:  2
+      Nb:  34
+    nottight:
+      Na:  2
+      Nb:  105
+  ESR1:
+    tight:
+      Na:  188
+      Nb:  38
+    tight3:
+      Na:  8
+      Nb:  31
+    tight4:
+      Na:  22
+      Nb:  73
+    tight5:
+      Na:  29
+      Nb:  102
+    nottight:
+      Na:  33
+      Nb:  301
+  ESR2:
+    tight:
+      Na:  72
+      Nb:  24
+    tight3:
+      Na:  1
+      Nb:  20
+    tight4:
+      Na:  3
+      Nb:  35
+    tight5:
+      Na:  4
+      Nb:  44
+    nottight:
+      Na:  5
+      Nb:  174
+twoeCR:
+  ISR1:
+    tight:
+      Na:  215
+      Nb:  68
+    tight3:
+      Na:  11
+      Nb:  51
+    tight4:
+      Na:  21
+      Nb:  106
+    tight5:
+      Na:  23
+      Nb:  148
+    nottight:
+      Na:  32
+      Nb:  491
+  ISR2:
+    tight:
+      Na:  64
+      Nb:  35
+    tight3:
+      Na:  5
+      Nb:  25
+    tight4:
+      Na:  5
+      Nb:  50
+    tight5:
+      Na:  5
+      Nb:  67
+    nottight:
+      Na:  10
+      Nb:  226
+  ISR3:
+    tight:
+      Na:  28
+      Nb:  11
+    tight3:
+      Na:  1
+      Nb:  10
+    tight4:
+      Na:  1
+      Nb:  17
+    tight5:
+      Na:  1
+      Nb:  25
+    nottight:
+      Na:  1
+      Nb:  71
+  ESR1:
+    tight:
+      Na:  151
+      Nb:  33
+    tight3:
+      Na:  6
+      Nb:  26
+    tight4:
+      Na:  16
+      Nb:  56
+    tight5:
+      Na:  18
+      Nb:  81
+    nottight:
+      Na:  22
+      Nb:  265
+  ESR2:
+    tight:
+      Na:  36
+      Nb:  24
+    tight3:
+      Na:  4
+      Nb:  15
+    tight4:
+      Na:  4
+      Nb:  33
+    tight5:
+      Na:  4
+      Nb:  42
+    nottight:
+      Na:  9
+      Nb:  155
+gammajetCR:
+    tight:
+      Na:  5225
+      Nb:  3165
+    tight3:
+      Na:  282
+      Nb:  2617
+    tight4:
+      Na:  558
+      Nb:  5245
+    tight5:
+      Na:  749
+      Nb:  7342
+    nottight:
+      Na:  982
+      Nb:  27089

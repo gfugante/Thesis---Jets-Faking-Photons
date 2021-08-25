@@ -1,0 +1,109 @@
+SR:
+  ISR1:
+    Na: 292.04
+    Nb: 47.6012
+    Ma: 7.46297
+    Mb: 3.0296
+  ISR2:
+    Na: 92.6799
+    Nb: 20.1644
+    Ma: 4.62423
+    Mb: 1.62979
+  ISR3:
+    Na: 33.2352
+    Nb: 1.80929
+    Ma: -0.0698913
+    Mb: 0
+  ESR1:
+    Na: 199.359
+    Nb: 27.4368
+    Ma: 2.83874
+    Mb: 1.39981
+  ESR2:
+    Na: 59.4447
+    Nb: 18.3551
+    Ma: 4.69412
+    Mb: 1.62979
+1muCR:
+  ISR1:
+    Na: 0
+    Nb: 0
+    Ma: 0.44274
+    Mb: 0
+  ISR2:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ISR3:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ESR1:
+    Na: 0
+    Nb: 0
+    Ma: 0.44274
+    Mb: 0
+  ESR2:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+2muCR:
+  ISR1:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ISR2:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ISR3:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ESR1:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+  ESR2:
+    Na: 0
+    Nb: 0
+    Ma: 0
+    Mb: 0
+2eCR:
+  ISR1:
+    Na: 3.33754
+    Nb: -0.0647769
+    Ma: 0
+    Mb: 0
+  ISR2:
+    Na: 1.82044
+    Nb: 0.456529
+    Ma: 0
+    Mb: 0
+  ISR3:
+    Na: 0
+    Nb: 0.456529
+    Ma: 0
+    Mb: 0
+  ESR1:
+    Na: 1.5171
+    Nb: -0.521305
+    Ma: 0
+    Mb: 0
+  ESR2:
+    Na: 1.82044
+    Nb: 0
+    Ma: 0
+    Mb: 0
+gammajetCR:
+  Na: 130.386
+  Nb: 14.4154
+  Ma: 4.04232
+  Mb: 1.17172
