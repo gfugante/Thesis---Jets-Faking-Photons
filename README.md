@@ -9,7 +9,7 @@ experiment at CERN.
 See also:
 - A [Brief summary](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Summary%20-%20Fugante%20Gianluca.pdf) of the work
 - The [Full thesis](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Tesi%20-%20Fugante%20Gianluca.pdf)
-- The [Presentation for the board](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Presentazione%20Tesi%20-%20Fugante%20Gianluca.pdf)
+- The [Presentation](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Presentazione%20Tesi%20-%20Fugante%20Gianluca.pdf) for the board
 
 Results have been included in the publication of the full article with the ATLAS Monophoton collaboration, which you can find at: 
 https://arxiv.org/abs/2011.05259
