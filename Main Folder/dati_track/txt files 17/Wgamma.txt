@@ -1,0 +1,1075 @@
+SR:
+  ISR1:
+    tight:
+      up:
+        Na:  2095.32
+        Nb:  211.296
+      iso:
+        Na:  2095.32
+        Nb:  193.495
+      down:
+        Na:  2095.32
+        Nb:  177.225
+    tight3:
+      up:
+        Na:  37.7378
+        Nb:  4.07423
+      iso:
+        Na:  37.7378
+        Nb:  3.73323
+      down:
+        Na:  37.7378
+        Nb:  3.40361
+    tight4:
+      up:
+        Na:  75.5495
+        Nb:  9.6678
+      iso:
+        Na:  75.5495
+        Nb:  8.87932
+      down:
+        Na:  75.5495
+        Nb:  8.2193
+    tight5:
+      up:
+        Na:  97.6959
+        Nb:  12.6085
+      iso:
+        Na:  97.6959
+        Nb:  11.5377
+      down:
+        Na:  97.6959
+        Nb:  10.7173
+    nottight:
+      up:
+        Na:  104.904
+        Nb:  17.3011
+      iso:
+        Na:  104.904
+        Nb:  15.6153
+      down:
+        Na:  104.904
+        Nb:  14.5225
+  ISR2:
+    tight:
+      up:
+        Na:  552.459
+        Nb:  82.8993
+      iso:
+        Na:  552.459
+        Nb:  77.8505
+      down:
+        Na:  552.459
+        Nb:  72.8707
+    tight3:
+      up:
+        Na:  8.17206
+        Nb:  1.70192
+      iso:
+        Na:  8.17206
+        Nb:  1.51045
+      down:
+        Na:  8.17206
+        Nb:  1.51558
+    tight4:
+      up:
+        Na:  16.1745
+        Nb:  2.20319
+      iso:
+        Na:  16.1745
+        Nb:  1.72837
+      down:
+        Na:  16.1745
+        Nb:  1.56433
+    tight5:
+      up:
+        Na:  22.4173
+        Nb:  3.35652
+      iso:
+        Na:  22.4173
+        Nb:  2.8817
+      down:
+        Na:  22.4173
+        Nb:  2.71766
+    nottight:
+      up:
+        Na:  24.3885
+        Nb:  5.17515
+      iso:
+        Na:  24.3885
+        Nb:  4.32145
+      down:
+        Na:  24.3885
+        Nb:  4.15741
+  ISR3:
+    tight:
+      up:
+        Na:  185.716
+        Nb:  22.2347
+      iso:
+        Na:  185.716
+        Nb:  20.2994
+      down:
+        Na:  185.716
+        Nb:  18.868
+    tight3:
+      up:
+        Na:  2.3693
+        Nb:  0.290745
+      iso:
+        Na:  2.3693
+        Nb:  0.290745
+      down:
+        Na:  2.3693
+        Nb:  0.290745
+    tight4:
+      up:
+        Na:  7.17372
+        Nb:  0.554334
+      iso:
+        Na:  7.17372
+        Nb:  0.270979
+      down:
+        Na:  7.17372
+        Nb:  0.270979
+    tight5:
+      up:
+        Na:  9.85777
+        Nb:  0.881939
+      iso:
+        Na:  9.85777
+        Nb:  0.598585
+      down:
+        Na:  9.85777
+        Nb:  0.598585
+    nottight:
+      up:
+        Na:  9.96321
+        Nb:  1.47132
+      iso:
+        Na:  9.96321
+        Nb:  1.18797
+      down:
+        Na:  9.96321
+        Nb:  1.18797
+  ESR1:
+    tight:
+      up:
+        Na:  1542.86
+        Nb:  128.396
+      iso:
+        Na:  1542.86
+        Nb:  115.644
+      down:
+        Na:  1542.86
+        Nb:  104.354
+    tight3:
+      up:
+        Na:  29.5657
+        Nb:  2.37231
+      iso:
+        Na:  29.5657
+        Nb:  2.22278
+      down:
+        Na:  29.5657
+        Nb:  1.88803
+    tight4:
+      up:
+        Na:  59.375
+        Nb:  7.46461
+      iso:
+        Na:  59.375
+        Nb:  7.15096
+      down:
+        Na:  59.375
+        Nb:  6.65497
+    tight5:
+      up:
+        Na:  75.2785
+        Nb:  9.252
+      iso:
+        Na:  75.2785
+        Nb:  8.65601
+      down:
+        Na:  75.2785
+        Nb:  7.99965
+    nottight:
+      up:
+        Na:  80.5155
+        Nb:  12.1259
+      iso:
+        Na:  80.5155
+        Nb:  11.2938
+      down:
+        Na:  80.5155
+        Nb:  10.3651
+  ESR2:
+    tight:
+      up:
+        Na:  366.742
+        Nb:  60.6646
+      iso:
+        Na:  366.742
+        Nb:  57.551
+      down:
+        Na:  366.742
+        Nb:  54.0027
+    tight3:
+      up:
+        Na:  5.80275
+        Nb:  1.41117
+      iso:
+        Na:  5.80275
+        Nb:  1.21971
+      down:
+        Na:  5.80275
+        Nb:  1.22483
+    tight4:
+      up:
+        Na:  9.00079
+        Nb:  1.64886
+      iso:
+        Na:  9.00079
+        Nb:  1.45739
+      down:
+        Na:  9.00079
+        Nb:  1.29335
+    tight5:
+      up:
+        Na:  12.5596
+        Nb:  2.47458
+      iso:
+        Na:  12.5596
+        Nb:  2.28311
+      down:
+        Na:  12.5596
+        Nb:  2.11908
+    nottight:
+      up:
+        Na:  14.4253
+        Nb:  3.70383
+      iso:
+        Na:  14.4253
+        Nb:  3.13348
+      down:
+        Na:  14.4253
+        Nb:  2.96945
+onemuCR:
+  ISR1:
+    tight:
+      up:
+        Na:  4344.21
+        Nb:  394.436
+      iso:
+        Na:  4344.21
+        Nb:  353.376
+      down:
+        Na:  4344.21
+        Nb:  321.193
+    tight3:
+      up:
+        Na:  66.9272
+        Nb:  9.38069
+      iso:
+        Na:  66.9272
+        Nb:  8.19801
+      down:
+        Na:  66.9272
+        Nb:  7.27871
+    tight4:
+      up:
+        Na:  143.174
+        Nb:  16.2381
+      iso:
+        Na:  143.174
+        Nb:  13.7741
+      down:
+        Na:  143.174
+        Nb:  12.3727
+    tight5:
+      up:
+        Na:  194.236
+        Nb:  22.5527
+      iso:
+        Na:  194.236
+        Nb:  19.1817
+      down:
+        Na:  194.236
+        Nb:  17.7129
+    nottight:
+      up:
+        Na:  212.053
+        Nb:  33.7307
+      iso:
+        Na:  212.053
+        Nb:  28.1319
+      down:
+        Na:  212.053
+        Nb:  26.4991
+  ISR2:
+    tight:
+      up:
+        Na:  1406.06
+        Nb:  192.319
+      iso:
+        Na:  1406.06
+        Nb:  177.745
+      down:
+        Na:  1406.06
+        Nb:  170.116
+    tight3:
+      up:
+        Na:  20.9853
+        Nb:  3.63465
+      iso:
+        Na:  20.9853
+        Nb:  3.48272
+      down:
+        Na:  20.9853
+        Nb:  2.97606
+    tight4:
+      up:
+        Na:  46.762
+        Nb:  6.25573
+      iso:
+        Na:  46.762
+        Nb:  5.90503
+      down:
+        Na:  46.762
+        Nb:  5.55251
+    tight5:
+      up:
+        Na:  61.2884
+        Nb:  10.7202
+      iso:
+        Na:  61.2884
+        Nb:  10.0573
+      down:
+        Na:  61.2884
+        Nb:  9.67652
+    nottight:
+      up:
+        Na:  67.2622
+        Nb:  14.874
+      iso:
+        Na:  67.2622
+        Nb:  13.3659
+      down:
+        Na:  67.2622
+        Nb:  12.9851
+  ISR3:
+    tight:
+      up:
+        Na:  476.022
+        Nb:  75.9452
+      iso:
+        Na:  476.022
+        Nb:  73.4064
+      down:
+        Na:  476.022
+        Nb:  70.1331
+    tight3:
+      up:
+        Na:  6.27539
+        Nb:  0.650249
+      iso:
+        Na:  6.27539
+        Nb:  0.73144
+      down:
+        Na:  6.27539
+        Nb:  0.379383
+    tight4:
+      up:
+        Na:  11.884
+        Nb:  1.70785
+      iso:
+        Na:  11.884
+        Nb:  1.58856
+      down:
+        Na:  11.884
+        Nb:  1.23651
+    tight5:
+      up:
+        Na:  18.5303
+        Nb:  3.49161
+      iso:
+        Na:  18.5303
+        Nb:  3.42248
+      down:
+        Na:  18.5303
+        Nb:  3.07042
+    nottight:
+      up:
+        Na:  21.2222
+        Nb:  4.47987
+      iso:
+        Na:  21.2222
+        Nb:  4.38106
+      down:
+        Na:  21.2222
+        Nb:  4.02901
+  ESR1:
+    tight:
+      up:
+        Na:  2938.14
+        Nb:  202.118
+      iso:
+        Na:  2938.14
+        Nb:  175.631
+      down:
+        Na:  2938.14
+        Nb:  151.077
+    tight3:
+      up:
+        Na:  45.9419
+        Nb:  5.74605
+      iso:
+        Na:  45.9419
+        Nb:  4.71529
+      down:
+        Na:  45.9419
+        Nb:  4.30264
+    tight4:
+      up:
+        Na:  96.4117
+        Nb:  9.98242
+      iso:
+        Na:  96.4117
+        Nb:  7.86911
+      down:
+        Na:  96.4117
+        Nb:  6.82018
+    tight5:
+      up:
+        Na:  132.947
+        Nb:  11.8326
+      iso:
+        Na:  132.947
+        Nb:  9.12444
+      down:
+        Na:  132.947
+        Nb:  8.03634
+    nottight:
+      up:
+        Na:  144.791
+        Nb:  18.8566
+      iso:
+        Na:  144.791
+        Nb:  14.766
+      down:
+        Na:  144.791
+        Nb:  13.514
+  ESR2:
+    tight:
+      up:
+        Na:  930.042
+        Nb:  116.374
+      iso:
+        Na:  930.042
+        Nb:  104.339
+      down:
+        Na:  930.042
+        Nb:  99.9831
+    tight3:
+      up:
+        Na:  14.7099
+        Nb:  2.9844
+      iso:
+        Na:  14.7099
+        Nb:  2.75128
+      down:
+        Na:  14.7099
+        Nb:  2.59668
+    tight4:
+      up:
+        Na:  34.8781
+        Nb:  4.54788
+      iso:
+        Na:  34.8781
+        Nb:  4.31646
+      down:
+        Na:  34.8781
+        Nb:  4.31601
+    tight5:
+      up:
+        Na:  42.7581
+        Nb:  7.22857
+      iso:
+        Na:  42.7581
+        Nb:  6.63481
+      down:
+        Na:  42.7581
+        Nb:  6.60609
+    nottight:
+      up:
+        Na:  46.04
+        Nb:  10.3942
+      iso:
+        Na:  46.04
+        Nb:  8.98483
+      down:
+        Na:  46.04
+        Nb:  8.95611
+twomuCR:
+  ISR1:
+    tight:
+      up:
+        Na:  1.7613
+        Nb:  -0.176987
+      iso:
+        Na:  1.7613
+        Nb:  -0.176987
+      down:
+        Na:  1.7613
+        Nb:  -0.176987
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+  ISR2:
+    tight:
+      up:
+        Na:  0.863507
+        Nb:  -0.176987
+      iso:
+        Na:  0.863507
+        Nb:  -0.176987
+      down:
+        Na:  0.863507
+        Nb:  -0.176987
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+  ISR3:
+    tight:
+      up:
+        Na:  0.170687
+        Nb:  0
+      iso:
+        Na:  0.170687
+        Nb:  0
+      down:
+        Na:  0.170687
+        Nb:  0
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight5:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    nottight:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+  ESR1:
+    tight:
+      up:
+        Na:  0.897794
+        Nb:  0
+      iso:
+        Na:  0.897794
+        Nb:  0
+      down:
+        Na:  0.897794
+        Nb:  0
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight5:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    nottight:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+  ESR2:
+    tight:
+      up:
+        Na:  0.69282
+        Nb:  -0.176987
+      iso:
+        Na:  0.69282
+        Nb:  -0.176987
+      down:
+        Na:  0.69282
+        Nb:  -0.176987
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.116237
+        Nb:  0
+      iso:
+        Na:  0.116237
+        Nb:  0
+      down:
+        Na:  0.116237
+        Nb:  0
+twoeCR:
+  ISR1:
+    tight:
+      up:
+        Na:  1.63726
+        Nb:  -0.150703
+      iso:
+        Na:  1.63726
+        Nb:  -0.150703
+      down:
+        Na:  1.63726
+        Nb:  -0.150703
+    tight3:
+      up:
+        Na:  0.162819
+        Nb:  0
+      iso:
+        Na:  0.162819
+        Nb:  0
+      down:
+        Na:  0.162819
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.162819
+        Nb:  0
+      iso:
+        Na:  0.162819
+        Nb:  0
+      down:
+        Na:  0.162819
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.162819
+        Nb:  0
+      iso:
+        Na:  0.162819
+        Nb:  0
+      down:
+        Na:  0.162819
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.162819
+        Nb:  0
+      iso:
+        Na:  0.162819
+        Nb:  0
+      down:
+        Na:  0.162819
+        Nb:  0
+  ISR2:
+    tight:
+      up:
+        Na:  0.209121
+        Nb:  -0.150703
+      iso:
+        Na:  0.209121
+        Nb:  -0.150703
+      down:
+        Na:  0.209121
+        Nb:  -0.150703
+    tight3:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+  ISR3:
+    tight:
+      up:
+        Na:  0.382384
+        Nb:  0
+      iso:
+        Na:  0.382384
+        Nb:  0
+      down:
+        Na:  0.382384
+        Nb:  0
+    tight3:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight4:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    tight5:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+    nottight:
+      up:
+        Na:  0
+        Nb:  0
+      iso:
+        Na:  0
+        Nb:  0
+      down:
+        Na:  0
+        Nb:  0
+  ESR1:
+    tight:
+      up:
+        Na:  1.42814
+        Nb:  0
+      iso:
+        Na:  1.42814
+        Nb:  0
+      down:
+        Na:  1.42814
+        Nb:  0
+    tight3:
+      up:
+        Na:  0.0280304
+        Nb:  0
+      iso:
+        Na:  0.0280304
+        Nb:  0
+      down:
+        Na:  0.0280304
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.0280304
+        Nb:  0
+      iso:
+        Na:  0.0280304
+        Nb:  0
+      down:
+        Na:  0.0280304
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.0280304
+        Nb:  0
+      iso:
+        Na:  0.0280304
+        Nb:  0
+      down:
+        Na:  0.0280304
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.0280304
+        Nb:  0
+      iso:
+        Na:  0.0280304
+        Nb:  0
+      down:
+        Na:  0.0280304
+        Nb:  0
+  ESR2:
+    tight:
+      up:
+        Na:  -0.173263
+        Nb:  -0.150703
+      iso:
+        Na:  -0.173263
+        Nb:  -0.150703
+      down:
+        Na:  -0.173263
+        Nb:  -0.150703
+    tight3:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    tight4:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    tight5:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+    nottight:
+      up:
+        Na:  0.134789
+        Nb:  0
+      iso:
+        Na:  0.134789
+        Nb:  0
+      down:
+        Na:  0.134789
+        Nb:  0
+gammajetCR:
+  tight:
+    up:
+      Na:  708.659
+      Nb:  48.5283
+    iso:
+      Na:  708.659
+      Nb:  39.6301
+    down:
+      Na:  708.659
+      Nb:  34.425
+  tight3:
+    up:
+      Na:  10.601
+      Nb:  0.693286
+    iso:
+      Na:  10.601
+      Nb:  0.502512
+    down:
+      Na:  10.601
+      Nb:  0.323066
+  tight4:
+    up:
+      Na:  23.6844
+      Nb:  0.901292
+    iso:
+      Na:  23.6844
+      Nb:  0.710518
+    down:
+      Na:  23.6844
+      Nb:  0.358651
+  tight5:
+    up:
+      Na:  34.7942
+      Nb:  1.75769
+    iso:
+      Na:  34.7942
+      Nb:  1.35162
+    down:
+      Na:  34.7942
+      Nb:  0.999753
+  nottight:
+    up:
+      Na:  39.0143
+      Nb:  3.35654
+    iso:
+      Na:  39.0143
+      Nb:  2.90281
+    down:
+      Na:  39.0143
+      Nb:  1.93784
