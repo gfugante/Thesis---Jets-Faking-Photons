@@ -7,7 +7,7 @@ Inside this folder you can find all data, documents and scripts used to evaluate
 experiment at CERN.
 
 See also:
-- A [Brief summary](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Summary%20-%20Fugante%20Gianluca.pdf) of the work;
+- A [Brief summary](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Summary%20-%20Fugante%20Gianluca.pdf) of the work
 - The [Full thesis](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Tesi%20-%20Fugante%20Gianluca.pdf)
 - The [Presentation for the board](https://github.com/gfugante/Thesis-Jets-Faking-Photons-Background-Estimation/blob/master/Tesi%20e%20Presentazioni/Presentazione%20Tesi%20-%20Fugante%20Gianluca.pdf)
 
