@@ -1,73 +1,47 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid3\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww18760\viewh11740\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
-JETS FAKING PHOTONS 2019\
-\
-This folder contains all the scripts to perform the Jets Faking Photons analysis, here a brief description of them and the data employed.\
-\
-1. Samples\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li567\fi-568\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	Monte Carlo samples:\
-		These samples are simulations generated for the general ATLAS detector team. To perform the analysis we used the following samples:\
-\pard\tx1660\tx2160\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li2160\fi-2160\sl360\slmult1\pardirnatural\partightenfactor0
-\ls1\ilvl2\cf0 {\listtext	\uc0\u8226 	}	W + gamma: W boson decaying into a muon and a neutrino, associated with an energetic photon (signal)\
-\pard\tx1660\tx2160\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li2160\fi-2160\pardirnatural\partightenfactor0
-\ls1\ilvl2\cf0 {\listtext	\uc0\u8226 	}	Z + gamma:  Z boson decaying into a muon and a neutrino, associated with an energetic photon (signal)\
-{\listtext	\uc0\u8226 	}	W + jet: W boson decaying into a muon and a neutrino, associated with a jet (background)\
-{\listtext	\uc0\u8226 	}	Z + jet:  Z boson decaying into a muon and a neutrino, associated with a jet (background)\
-{\listtext	\uc0\u8226 	}	Znunu+ gamma: Z boson decaying into two neutrinos, associated with an energetic photon (signal)\
-{\listtext	\uc0\u8226 	}	gamma jet: an event with an energetic photon and a jet (both signal and background)\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 		Each sample has three similar generations, associated to the years 2015-16, 2017 and 2018.\
-	Real data:\
-		These are the real data from the so full Run2 dataset, comprising of all the data taken from 2015 to 2018, amounting to more than 2PB of storage.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
-2. Script: routine.sh\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li567\fi-568\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	Bash file that runs the scripts to analyze the raw Monte Carlo samples and real data and saving the results in the folder \'91dati\'92. \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 	Both from the MC samples and the real data are taken from the full Run2 of LHC.\
-\
-\
-2. Scripts: TSelectors (SelectorData.h, SelectorData.C, SelectorMC.h, SelectorMC.C)\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	C++ scripts that perform the above mentioned raw data analysis, they are specific ROOT files that analyze the TTrees, which are specific ROOT data structures. ROOt is CERN\'92s data analysis framework.\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\pardirnatural\partightenfactor0
-\cf0 	There are two header and two .C files to account for the difference between the real data and the MC samples.\
-\
-	Each TSelector takes its input parameters from \'91selector_parameters.txt\'92 (Missing energy transverse bins (MET), Calorimetric isolation, Tracking system isolation, Tightness).\
-	The results produced by these selectors are photons populations stored matrices easily readable with the \'91Yaml\'92 python library. The hierarchy of the data is: \
-\
-			Signal or Control Region (SR - CR) \'97>  Inclusive or Exclusive MET region (ISR - ESR)  \'97> Tightness \'97> Track Isolation\
-\
-3. Notebook: Full analysis.ipynb\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	This is the main notebook used to analyze the data in the \'91dati\'92 folder and to produce all results and plots later published.\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\pardirnatural\partightenfactor0
-\cf0 \
-4. Script: derivate_complete.py\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	File containing all the derivatives used in the analysis for error propagation. To avoid mistakes they have all been generated with Mathematica.\
-\pard\tx535\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li558\fi-559\pardirnatural\partightenfactor0
-\cf0 \
-5. Script: functions.py\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li572\fi-573\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 	Functions used in the analysis.\
-\
-#########################################################################################\
-Update 19/12/19\
-	MET bin enhancement requested by the Monophoton team: two new MET bins have been added.\
-	dati_3: populations for the old analysis with 3 MET bins\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li572\fi-573\pardirnatural\partightenfactor0
-\cf0 	dati_5: populations for the new analysis with 5 MET bins\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li572\fi-573\sl360\slmult1\pardirnatural\partightenfactor0
-\cf0 #########################################################################################\
-}
+JETS FAKING PHOTONS 2019
+
+This folder contains all the scripts to perform the Jets Faking Photons analysis, here a brief description of them and the data employed.
+
+1. Samples
+	Monte Carlo samples:
+		These samples are simulations generated for the general ATLAS detector team. To perform the analysis we used the following samples:
+	•		W + gamma: W boson decaying into a muon and a neutrino, associated with an energetic photon (signal)
+	•		Z + gamma:  Z boson decaying into a muon and a neutrino, associated with an energetic photon (signal)
+	•		W + jet: W boson decaying into a muon and a neutrino, associated with a jet (background)
+	•		Z + jet:  Z boson decaying into a muon and a neutrino, associated with a jet (background)
+	•		Znunu+ gamma: Z boson decaying into two neutrinos, associated with an energetic photon (signal)
+	•		gamma jet: an event with an energetic photon and a jet (both signal and background)
+		Each sample has three similar generations, associated to the years 2015-16, 2017 and 2018.
+	Real data:
+		These are the real data from the so full Run2 dataset, comprising of all the data taken from 2015 to 2018, amounting to more than 2PB of storage.
+
+2. Script: routine.sh
+	Bash file that runs the scripts to analyze the raw Monte Carlo samples and real data and saving the results in the folder ‘dati’. 
+	Both from the MC samples and the real data are taken from the full Run2 of LHC.
+
+
+2. Scripts: TSelectors (SelectorData.h, SelectorData.C, SelectorMC.h, SelectorMC.C)
+	C++ scripts that perform the above mentioned raw data analysis, they are specific ROOT files that analyze the TTrees, which are specific ROOT data structures. ROOt is CERN’s data analysis framework.
+	There are two header and two .C files to account for the difference between the real data and the MC samples.
+
+	Each TSelector takes its input parameters from ‘selector_parameters.txt’ (Missing energy transverse bins (MET), Calorimetric isolation, Tracking system isolation, Tightness).
+	The results produced by these selectors are photons populations stored matrices easily readable with the ‘Yaml’ python library. The hierarchy of the data is: 
+
+			Signal or Control Region (SR - CR) —>  Inclusive or Exclusive MET region (ISR - ESR)  —> Tightness —> Track Isolation
+
+3. Notebook: Full analysis.ipynb
+	This is the main notebook used to analyze the data in the ‘dati’ folder and to produce all results and plots later published.
+
+4. Script: derivate_complete.py
+	File containing all the derivatives used in the analysis for error propagation. To avoid mistakes they have all been generated with Mathematica.
+
+5. Script: functions.py
+	Functions used in the analysis.
+
+#########################################################################################
+Update 19/12/19
+	MET bin enhancement requested by the Monophoton team: two new MET bins have been added.
+	dati_3: populations for the old analysis with 3 MET bins
+	dati_5: populations for the new analysis with 5 MET bins
+#########################################################################################
