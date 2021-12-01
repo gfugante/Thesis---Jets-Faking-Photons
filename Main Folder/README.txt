@@ -39,9 +39,3 @@ This folder contains all the scripts to perform the Jets Faking Photons analysis
 5. Script: functions.py
 	Functions used in the analysis.
 
-#########################################################################################
-Update 19/12/19
-	MET bin enhancement requested by the Monophoton team: two new MET bins have been added.
-	dati_3: populations for the old analysis with 3 MET bins
-	dati_5: populations for the new analysis with 5 MET bins
-#########################################################################################
