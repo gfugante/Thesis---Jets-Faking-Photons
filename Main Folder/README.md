@@ -6,12 +6,12 @@ This folder contains all the scripts to perform the Jets Faking Photons analysis
 1. Samples  
 	Monte Carlo samples:  
 		These samples are simulations generated for the general ATLAS detector team. To perform the analysis we used the following samples:  
-			•W + gamma: W boson decaying into a muon and a neutrino, associated with an energetic photon (signal)  
-			•Z + gamma:  Z boson decaying into a muon and a neutrino, associated with an energetic photon (signal)  
-			•W + jet: W boson decaying into a muon and a neutrino, associated with a jet (background)  
-			•Z + jet:  Z boson decaying into a muon and a neutrino, associated with a jet (background)  
-			•Znunu+ gamma: Z boson decaying into two neutrinos, associated with an energetic photon (signal)  
-			•gamma jet: an event with an energetic photon and a jet (both signal and background)  
+			• W + gamma: W boson decaying into a muon and a neutrino, associated with an energetic photon (signal)  
+			• Z + gamma:  Z boson decaying into a muon and a neutrino, associated with an energetic photon (signal)  
+			• W + jet: W boson decaying into a muon and a neutrino, associated with a jet (background)  
+			• Z + jet:  Z boson decaying into a muon and a neutrino, associated with a jet (background)  
+			• Znunu+ gamma: Z boson decaying into two neutrinos, associated with an energetic photon (signal)  
+			• gamma jet: an event with an energetic photon and a jet (both signal and background)  
 		Each sample has three similar generations, associated to the years 2015-16, 2017 and 2018.  
 	Real data:  
 		These are the real data from the so full Run2 dataset, comprising of all the data taken from 2015 to 2018, amounting to more than 2PB of storage.  
